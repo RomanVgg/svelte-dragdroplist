@@ -207,8 +207,8 @@
                 <div class="content">
                     {#if datum.html}
                         {@html datum.html}
-                    {:else if datum.text}
-                        <p>{datum.text}</p>
+                    {:else if datum.title}
+                        <p>{datum.title}</p>
                     {:else}
                         <p>{datum}</p>
                     {/if}
